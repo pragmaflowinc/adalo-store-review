@@ -1,0 +1,14 @@
+{
+  "displayName": "Store Review",
+  "defaultWidth": 160,
+  "defaultHeight": 24,
+  "components": "./index.js",
+  "icon": "./example-thumbnail.png",
+  "props": [
+    {
+      "name": "showDialog",
+      "displayName": "Set this to 'true' to show the dialog",
+      "type": "text"
+    }
+  ]
+}

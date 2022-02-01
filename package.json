@@ -1,0 +1,33 @@
+{
+  "name": "adalo-store-review",
+  "description": "Allows the native modal for reviewing in the store",
+  "version": "1.0.3",
+  "main": "index.js",
+  "license": "ISC",
+  "author": "Steven McKeown",
+  "scripts": {
+    "start": "adalo dev",
+    "login": "adalo login",
+    "publish": "adalo publish"
+  },
+  "adalo": {
+    "logo": "./example-logo.png",
+    "displayName": "Adalo Store Review",
+    "components": [
+      {
+        "name": "StoreReview",
+        "manifest": "./src/components/StoreReview/manifest.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@adalo/cli": "^0.0.46",
+    "react": "^16.9.0",
+    "react-art": "^16.6.0",
+    "react-dom": "^16.9.0",
+    "react-native-web": "^0.9.5"
+  },
+  "dependencies": {
+    "react-native-store-review": "^0.2.0"
+  }
+}
